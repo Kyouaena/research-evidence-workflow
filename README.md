@@ -55,6 +55,21 @@ The workflow uses four auditable ledgers:
 
 The skill distinguishes discovery from verification. Search results and AI summaries may identify candidate sources, but a source becomes citable only after its identity, status, and relevant passage have been checked against the original document.
 
+## 方便的中文唤醒词
+
+可以直接使用下面这些自然表达，不必每次输入 Skill 的完整英文名称：
+
+- `我要开始做大研究了`
+- `开始一个新研究`
+- `帮我规划博士研究`
+- `进入研究证据模式`
+- `帮我设计并冻结实验`
+- `审计我的实验结果`
+- `从证据开始写论文`
+- `继续我的大研究`
+
+不同表达会从对应阶段进入流程，但不会跳过 G1–G5 人工确认门。
+
 ## Repository structure
 
 ```text
