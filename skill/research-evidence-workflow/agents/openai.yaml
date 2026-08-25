@@ -1,0 +1,8 @@
+interface:
+  display_name: "Research Evidence Workflow"
+  short_description: "Auditable research from question to manuscript"
+  default_prompt: "Use $research-evidence-workflow to manage my research with evidence ledgers and explicit approval gates."
+
+policy:
+  allow_implicit_invocation: true
+

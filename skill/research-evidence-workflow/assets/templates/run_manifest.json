@@ -1,0 +1,21 @@
+{
+  "run_id": "R001",
+  "protocol_id": "P001",
+  "protocol_version": "0.1",
+  "started_at": "",
+  "completed_at": "",
+  "code_revision": "",
+  "python_version": "",
+  "dependency_lock_hash": "",
+  "dataset_hashes": {},
+  "model_identifiers": [],
+  "parameters": {},
+  "random_seed": null,
+  "raw_output_path": "",
+  "raw_output_hash": "",
+  "status": "planned",
+  "deviations": [],
+  "failures_and_retries": [],
+  "actual_cost": ""
+}
+

@@ -1,0 +1,27 @@
+{
+  "protocol_id": "P001",
+  "version": "0.1",
+  "gate_status": "G2_PENDING",
+  "hypotheses": [],
+  "datasets": [],
+  "split_strategy": "",
+  "test_set_lock": "",
+  "baselines": [],
+  "primary_metrics": [],
+  "secondary_metrics": [],
+  "statistical_analysis": [],
+  "random_seeds": [],
+  "ablation_plan": [],
+  "leakage_checks": [],
+  "exclusion_rules": [],
+  "stopping_rules": [],
+  "api_plan": {
+    "models": [],
+    "estimated_calls": 0,
+    "estimated_cost_range": "",
+    "estimated_runtime": "",
+    "data_exposure": "",
+    "gate_status": "G3_PENDING"
+  }
+}
+
