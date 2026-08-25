@@ -1,11 +1,26 @@
 ---
 name: research-evidence-workflow
-description: Manage an approval-gated, evidence-first doctoral research workflow from topic formulation and literature verification through Python/API experiments, result auditing, and LaTeX/BibTeX manuscript drafting. Use for LLM or Agent safety evaluations, financial time-series forecasting, system prototypes, ablation studies, reproducibility reviews, citation audits, or research writing where claims must remain traceable and academic integrity must be enforced.
+description: Manage an approval-gated, evidence-first doctoral research workflow from topic formulation and literature verification through Python/API experiments, result auditing, and LaTeX/BibTeX manuscript drafting. Use for LLM or Agent safety evaluations, financial time-series forecasting, system prototypes, ablation studies, reproducibility reviews, citation audits, or research writing where claims must remain traceable and academic integrity must be enforced. Also trigger for natural Chinese requests such as “我要开始做大研究了”, “开始一个新研究”, “帮我规划博士研究”, “进入研究证据模式”, “帮我设计并冻结实验”, “审计我的实验结果”, or “从证据开始写论文”.
 ---
 
 # Research Evidence Workflow
 
 Treat research assistance as controlled evidence production, not autonomous authorship.
+
+## Recognize activation phrases
+
+Treat the following phrases and close paraphrases as explicit requests to start or resume this workflow:
+
+- `我要开始做大研究了`: start at Stage 0 and establish the private project context.
+- `开始一个新研究`: start with idea intake and research-question formulation.
+- `帮我规划博士研究`: inventory the current doctoral research state before proposing a plan.
+- `进入研究证据模式`: enforce evidence-ledger and approval-gate behavior immediately.
+- `帮我设计并冻结实验`: prepare the G2 experiment protocol without running it.
+- `审计我的实验结果`: start at Stage 6 and reconstruct provenance before interpreting results.
+- `从证据开始写论文`: verify G4-approved claims before drafting any manuscript text.
+- `继续我的大研究`: resume from the latest explicitly approved gate; never assume an unrecorded approval.
+
+Ask for only the missing context required by the selected entry point. Preserve all approval and integrity rules regardless of the activation phrase.
 
 ## Start every project
 
@@ -105,4 +120,3 @@ Treat a passing result as schema and traceability validation, not scientific end
 ## Refuse integrity violations
 
 Refuse requests to fabricate or backfill results, invent citations, misrepresent another scholar's finding, hide inconvenient runs, tune on final test labels, bypass an approval gate, or expose private research and credentials. Offer a compliant alternative such as marking the value missing, rerunning the experiment, narrowing the claim, or adding a transparent limitation.
-
